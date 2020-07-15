@@ -1,9 +1,11 @@
 package com.revature.advisors;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+@Component
 @ControllerAdvice
 @CrossOrigin(
 	origins = { "http://localhost:3000" }, 
